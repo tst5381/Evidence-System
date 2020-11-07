@@ -1,0 +1,111 @@
+{
+  "main": {
+    "id": "b8d2e47562d3ec05",
+    "type": "split",
+    "children": [
+      {
+        "id": "c16b272ecda30ca2",
+        "type": "split",
+        "children": [
+          {
+            "id": "c31e468d301442bb",
+            "type": "leaf",
+            "active": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "preview"
+              }
+            },
+            "group": "d3caa623a4edf8f6"
+          },
+          {
+            "id": "96b4d726292232b3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source"
+              }
+            },
+            "group": "d3caa623a4edf8f6"
+          }
+        ],
+        "direction": "horizontal"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b8165fc7adc8297a",
+    "type": "split",
+    "children": [
+      {
+        "id": "87edcdc425aa0731",
+        "type": "tabs",
+        "dimension": 43.341404358353515,
+        "children": [
+          {
+            "id": "215d13e3a812bc77",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "442a862db185c632",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": ""
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "b42c8dd2e2ea9782",
+        "type": "tabs",
+        "dimension": 56.658595641646485,
+        "children": [
+          {
+            "id": "54713804efc01f92",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "README.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "e5b6e1a1e72b363a",
+    "type": "split",
+    "children": [],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "README.md",
+    "概述.md",
+    "證物.md",
+    "劇本.md",
+    "任務.md",
+    "事實.md",
+    "成就點數.md",
+    "Overview.md",
+    "Untitled.md",
+    "Credit Point.md"
+  ]
+}
