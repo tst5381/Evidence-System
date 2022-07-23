@@ -6,7 +6,7 @@
 
 	- Using .md as document format for now.
 	
-		- optionally read and edited with [Obsidian](https://obsidian.md/) for wiki-like navigation between documents.
+		- Optionally read and edited with [Obsidian](https://obsidian.md/) for wiki-like navigation between documents.
 	
 	- Using git for version control and collaboration for now.
 	
