@@ -5,7 +5,7 @@ namespace OGC.EvidenceSystem
     public interface EvidenceOwner { }
     public interface Evidence // 證物
     {
-        Evidence TransferOwnership(EvidenceOwner sender, EvidenceOwner receiver);
+        Evidence TransferOwnership(EvidenceOwner receiver);
         EvidenceOwner GetOwner();
         ICollection<Fact> GetFactsRevealable(FactOwner factOwner);
     }
@@ -24,12 +24,11 @@ namespace OGC.EvidenceSystem
             factOwner = factOwner.AddFact<T>(facts);
             return factOwner;
         }
-        public static (Evidence evidence, T receiver) TransferOwnership<T>(Evidence evidence, T receiver)
+        public static (Evidence evidence, T receiver) TransferEvidence<T>(Evidence evidence, T receiver)
         where T : EvidenceOwner, FactOwner
         {
             receiver = Reveal<T>(evidence, receiver);
-            EvidenceOwner sender = evidence.GetOwner();
-            evidence = evidence.TransferOwnership(sender, receiver);
+            evidence = evidence.TransferOwnership(receiver);
             return (evidence, receiver);
         }
     }
