@@ -7,7 +7,7 @@ namespace OGC.EvidenceSystem
     {
         Evidence TransferOwnership(EvidenceOwner sender, EvidenceOwner receiver);
         EvidenceOwner GetOwner();
-        ICollection<Fact> GetFactsRevealable(FactOwner to_fact_owner);
+        ICollection<Fact> GetFactsRevealable(FactOwner factOwner);
     }
     public interface FactOwner 
     {
