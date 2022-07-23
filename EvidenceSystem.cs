@@ -3,7 +3,7 @@ using System.Collections.Generic;
 namespace OGC.EvidenceSystem
 {
     public interface EvidenceOwner { }
-    public interface Evidence // 證據
+    public interface Evidence // [[證物]]
     {
         Evidence TransferOwnership(EvidenceOwner sender, EvidenceOwner receiver);
         EvidenceOwner GetOwner();
@@ -14,7 +14,7 @@ namespace OGC.EvidenceSystem
         T AddFact<T>(ICollection<Fact> facts) where T : FactOwner;
         ICollection<Fact> GetFacts();
     }
-    public interface Fact { } // 事實
+    public interface Fact { } // [[事實]]
     public static class Rules
     {
         public static T Reveal<T>(Evidence evidence, T factOwner)
