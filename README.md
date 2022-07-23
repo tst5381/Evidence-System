@@ -1,4 +1,4 @@
-- Evidence System is a proof of concept for Open Game Concepts (OGC).
+- This is a proof of concept for Open Game Concepts (OGC).
 
 	- The purpose of OGC is to bring the spirit of open-source to game design area.
 	
@@ -6,11 +6,15 @@
 
 	- Using .md as document format for now.
 	
-		- optionally read and edited with [Obsidian](https://obsidian.md/ for wiki-like navigation between documents.
+		- optionally read and edited with [Obsidian](https://obsidian.md/) for wiki-like navigation between documents.
 	
 	- Using git for version control and collaboration for now.
 	
 		- Forks instead of pull requests are recommended for adding genre-specific details and implementations.
+	
+	- OGC is planned to provide source codes for demonstrating the game concept.
+	
+		- The amibition is that each game concept is presented with a package/framework for implementation.
 
 -  For the conecpt of Evidence System, please start the reading from [[概述]].
 	
