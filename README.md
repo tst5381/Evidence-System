@@ -16,6 +16,6 @@
 	
 		- The amibition is that each game concept is presented with a package/framework for implementation.
 
--  For the conecpt of Evidence System, please start the reading from [[概述]].
+-  For the concept of Evidence System, please start the reading from [[概述]].
 	
 	- Only Chinese version available for now.
