@@ -1,9 +1,17 @@
-- Evidence System是開源遊戲概念（Open Game Concept, OGC）的嘗試。
+- Evidence System is a proof of concept for Open Game Concepts (OGC).
 
-	- OGC旨在將「開放、共享、協作」的理念帶入遊戲設計文件，強調模組化、去除細節脈絡，讓一份概念文件可用於不同遊戲。
-
-	- OGC以Markdown為文件格式，並以[Obsidian](https://obsidian.md/)來進行檢視和編輯，文件內會連結關鍵字元素到其對應文件，類似於Wiki的形式。
+	- The purpose of OGC is to bring the spirit of open-source to game design area.
 	
-	- OGC以Git架構來實現版本控管和協作。當需要對概念進行細化或延伸以對應具體遊戲規格時，可以用Fork的方式分叉出新的專案。
+	- OGC pursuits highly abstract and modular design to keep the concept extensible and applicable for different genre.
 
--  Evidence System的說明請從[[概述]]開始閱讀。
+	- Using .md as document format for now.
+	
+		- optionally read and edited with [Obsidian](https://obsidian.md/ for wiki-like navigation between documents.
+	
+	- Using git for version control and collaboration for now.
+	
+		- Forks instead of pull requests are recommended for adding genre-specific details and implementations.
+
+-  For the conecpt of Evidence System, please start the reading from [[概述]].
+	
+	- Only Chinese version available for now.
