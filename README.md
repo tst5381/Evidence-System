@@ -2,7 +2,7 @@
 
 	- The purpose of OGC is to bring the spirit of open-source to game design area.
 	
-	- OGC pursuits highly abstract and modular design to keep the concept extensible and applicable for different genre.
+	- OGC pursues highly abstract and modular design to keep the concept extensible and applicable for different genre.
 
 	- Using .md as document format for now.
 	
